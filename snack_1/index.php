@@ -28,5 +28,3 @@ foreach ($basket_matches as $sing_match) {
     echo $sing_match["home_team"] . ' - ' . $sing_match["outside_team"] . ' | ' . $sing_match["homeTeamPoints"] . ' - ' . $sing_match["outsideTeamPoints"];
     echo '<br>';
 }
-
-?>
